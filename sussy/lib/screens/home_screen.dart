@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
             backgroundColor: AppColors.secondary,
             foregroundColor: AppColors.accent,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadiusGeometry.circular(16)
+              borderRadius: BorderRadius.circular(16)
             ),
             elevation: 10
           ),
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
             backgroundColor: AppColors.secondary,
             foregroundColor: AppColors.accent,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadiusGeometry.circular(16)
+              borderRadius: BorderRadius.circular(16)
             ),
             elevation: 10
           ),
