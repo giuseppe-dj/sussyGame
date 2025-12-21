@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sussy/theme/app_colors.dart';
 
+// anyadir push del boton de jugar
+// anyadior el otro push y hacer la pagina para crear listas y verlas
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -34,7 +37,7 @@ class HomeScreen extends StatelessWidget {
             backgroundColor: AppColors.secondary,
             foregroundColor: AppColors.accent,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16)
+              borderRadius: BorderRadius.circular(8)
             ),
             elevation: 10
           ),
@@ -52,7 +55,7 @@ class HomeScreen extends StatelessWidget {
             backgroundColor: AppColors.secondary,
             foregroundColor: AppColors.accent,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16)
+              borderRadius: BorderRadius.circular(8)
             ),
             elevation: 10
           ),
@@ -72,7 +75,7 @@ class HomeScreen extends StatelessWidget {
               width: 310,
               decoration: BoxDecoration(
                 color: AppColors.secondary,
-                borderRadius: BorderRadius.circular(16)
+                borderRadius: BorderRadius.circular(8)
               ),
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -81,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                   "Sussy game",
                   style: TextStyle(
                     color: AppColors.accent,
-                    fontFamily: 'ddream',
+                    fontFamily: 'dream',
                     fontSize: 50
                   ),),
               ),

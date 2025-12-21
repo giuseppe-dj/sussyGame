@@ -19,6 +19,9 @@ flutter:
   uses-material-design: true
   
   fonts:
-    - family: ddream       
+    - family: dream       
       fonts:
-        - asset: assets/fonts/daydream.otf  
+        - asset: assets/fonts/daydream.otf
+    - family: mine
+      fonts:
+        - asset: assets/fonts/mine.ttf
