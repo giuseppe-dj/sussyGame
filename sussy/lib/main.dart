@@ -11,7 +11,14 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,  //etiqueta de debug
+      theme: ThemeData(       // estilo del esqueleto
+        scaffoldBackgroundColor: Colors.black,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.black,
+          elevation: 0
+        )
+      ),
       home: Scaffold(
         backgroundColor: Colors.black,
         body: HomeScreen()

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sussy/screens/play_settings.dart';
 import 'package:sussy/theme/app_colors.dart';
 
 // anyadir push del boton de jugar
@@ -20,7 +21,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             
             children: [
-              playButton(),
+              playButton(context),
               listButton()
             ],
           ),
@@ -29,9 +30,12 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  ElevatedButton playButton() {
+  ElevatedButton playButton(BuildContext context) {
     return ElevatedButton(onPressed: (){
-            // accion boton JUGAR
+            Navigator.push(
+              context, 
+              MaterialPageRoute(builder: (context) => const PlaySettings(),
+              ));
           }, 
           style: ElevatedButton.styleFrom(
             backgroundColor: AppColors.secondary,
